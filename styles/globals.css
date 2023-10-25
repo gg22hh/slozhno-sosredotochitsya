@@ -7,6 +7,10 @@
 }
 
 body {
+  font-family: 'IBM Plex mono';
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--main-color);
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
@@ -39,4 +43,16 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 700;
 }
