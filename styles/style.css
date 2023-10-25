@@ -7,6 +7,7 @@
   background-size: 100% 766px;
   background-repeat: no-repeat;
   padding: 20px;
+  background-attachment: fixed;
 }
 
 .header {
@@ -282,7 +283,7 @@
   }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
   .section__pictures {
     grid-template-columns: 1fr;
     grid-template-rows: 142px 355px 237px 355px 237px;
@@ -296,6 +297,7 @@
 @media(max-width: 480px) {
   .page {
     background-size: 100% 668px;
+    padding: 10px;
   }
 
   .header {
@@ -314,9 +316,6 @@
   .header__text {
     width: 355px;
   }
-  .page {
-    padding: 10px;
-  }
 
   .why {
     padding-top: 51px;
@@ -324,7 +323,7 @@
 
   .section__title {
     width: auto;
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 
   .pictures,
