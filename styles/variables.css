@@ -3,12 +3,13 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-color: #F1B2CE;
+  --main-color: #f1b2ce;
   --hover-color: rgba(255, 0, 112, 0.4);
-  --additional-color-text: #FF0070;
-  --additional-color-background: #FF0070;
+  --additional-color-text: #ff0070;
+  --additional-color-background: #ff0070;
   --header-title-color: #db00ff;
   --title-color: #000028;
   --page-background-color: #000028;
   --page-background-image: url(../images/cover-image-dark.png);
+  --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
