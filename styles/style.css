@@ -264,10 +264,6 @@
     grid-template-columns: unset;
   }
 
-  .section__pictures {
-    flex-wrap: wrap;
-  }
-
   .section__picture:nth-child(5) {
     margin-top: 0;
   }
